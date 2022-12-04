@@ -1,0 +1,18 @@
+{
+    "name": "alamin/gpt-play",
+    "autoload": {
+        "psr-4": {
+            "Alamin\\GptPlay\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Al-Amin Firdows",
+            "email": "alaminfirdows@gmail.com"
+        }
+    ],
+    "require": {
+        "openai-php/client": "^0.1.0",
+        "symfony/dotenv": "^6.2"
+    }
+}
